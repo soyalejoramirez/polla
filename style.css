@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Dusha";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("fonts/Dusha.woff") format("woff"), url("fonts/Dusha.ttf") format("truetype");
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background: url("background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.container-fluid {
+	margin-bottom: 60px; 
+}
+
+.worldcup-text {
+	font-family: Dusha;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Set the fixed height of the footer here */
+	line-height: 60px; /* Vertically center the text there */
+	text-align: center;
+	background-color: #A51B20;
+}
+
+ .table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #ffffff;
+ }
