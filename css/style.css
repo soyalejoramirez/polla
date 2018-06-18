@@ -2,7 +2,7 @@
     font-family: "Dusha";
     font-style: normal;
     font-weight: normal;
-    src: local("?"), url("fonts/Dusha.woff") format("woff"), url("fonts/Dusha.ttf") format("truetype");
+    src: local("?"), url("../fonts/Dusha.woff") format("woff"), url("../fonts/Dusha.ttf") format("truetype");
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background: url("background.jpg") no-repeat center center fixed;
+	background: url("../resources/background.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -45,7 +45,21 @@ body {
 	background-color: #A51B20;
 }
 
- .table-striped>tbody>tr:nth-child(even)>td, 
+.banderas {
+	margin-bottom: 3px;
+	margin-top: 1px;
+}
+
+.label {
+	display: inline-block !important;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
 .table-striped>tbody>tr:nth-child(even)>th {
    background-color: #ffffff;
  }
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
